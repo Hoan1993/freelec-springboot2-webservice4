@@ -1,6 +1,6 @@
 package com.jojoldu.book.springboot.web;
 
-import com.jojoldu.book.springboot.domain.posts.Posts;
+/*import com.jojoldu.book.springboot.domain.posts.Posts;
 import com.jojoldu.book.springboot.domain.posts.PostsRepository;
 import com.jojoldu.book.springboot.web.dto.PostsSaveRequestDto;
 import com.jojoldu.book.springboot.web.dto.PostsUpdateRequestDto;
@@ -28,7 +28,7 @@ import static org.springframework.security.test.web.servlet.setup.SecurityMockMv
 @RunWith(SpringRunner.class)
 public class PostsApiControllerTest {
 
-   /* @LocalServerPort
+    @LocalServerPort
     private int port;
 
     @Autowired
@@ -124,5 +124,5 @@ public class PostsApiControllerTest {
 
 
 
-    }*/
-}
+    }
+}*/

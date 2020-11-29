@@ -1,6 +1,7 @@
 package com.jojoldu.book.springboot.domain.posts;
 
 
+/*import oracle.jdbc.proxy.annotation.Post;
 import org.junit.After;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -17,7 +18,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 @SpringBootTest
 public class PostsRepositoryTest {
 
-   /* @Autowired
+    @Autowired
     PostsRepository postsRepository;
 
     @After
@@ -66,6 +67,6 @@ public class PostsRepositoryTest {
         assertThat(posts.getModifiedDate()).isAfter(now);
 
 
-    }*/
+    }
 
-}
+}*/
