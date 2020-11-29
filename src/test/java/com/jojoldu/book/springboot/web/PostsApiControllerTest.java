@@ -1,21 +1,22 @@
 package com.jojoldu.book.springboot.web;
 
-import com.jojoldu.book.springboot.domain.posts.Posts;
+/*import com.jojoldu.book.springboot.domain.posts.Posts;
 import com.jojoldu.book.springboot.domain.posts.PostsRepository;
 import com.jojoldu.book.springboot.web.dto.PostsSaveRequestDto;
 import com.jojoldu.book.springboot.web.dto.PostsUpdateRequestDto;
 import org.junit.Before;
-import org.junit.Test;
+import org.junit.Test;*/
 import org.junit.runner.RunWith;
-import org.springframework.beans.factory.annotation.Autowired;
+/*import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.boot.web.server.LocalServerPort;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.test.context.support.WithMockUser;
+import org.springframework.security.test.context.support.WithMockUser;*/
 import org.springframework.test.context.junit4.SpringRunner;
+/*
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
@@ -24,11 +25,12 @@ import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.springframework.security.test.web.servlet.setup.SecurityMockMvcConfigurers.springSecurity;
+*/
 
 @RunWith(SpringRunner.class)
 public class PostsApiControllerTest {
 
-    @LocalServerPort
+   /* @LocalServerPort
     private int port;
 
     @Autowired
@@ -52,10 +54,10 @@ public class PostsApiControllerTest {
     }
 
 
-/*    @After
+*//*    @After
     public void tearDown() throws Exception {
         postsRepository.deleteAll();
-    }*/
+    }*//*
 
     @Test
     @WithMockUser(roles = "USER")
@@ -124,5 +126,5 @@ public class PostsApiControllerTest {
 
 
 
-    }
+    }*/
 }
