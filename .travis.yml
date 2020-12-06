@@ -39,7 +39,7 @@ deploy:
     bucket: freelect-springboot-hoan-build
     key: freelect-springboot2-webservice4.zip
     bundle_tpe: zip
-    application: freelect-springboot2-webservice4
+    application: ec2-codedeploy-role
     deployment_group: freelect-springboot2-webservice-group
     region: ap-northeast-2
     wait-until-deployed: true
