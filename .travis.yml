@@ -37,7 +37,7 @@ deploy:
     access_key_id: $AWS_ACCESS_KEY # TRAVIS REPO
     secret_access_key: $AWS_SECRET_KEY
     bucket: freelect-springboot-hoan-build
-    key: freelect-springboot2-webservice.zip
+    key: freelect-springboot2-webservice4.zip
     bundle_tpe: zip
     application: freelect-springboot2-webservice4
     deployment_group: freelect-springboot2-webservice-group
